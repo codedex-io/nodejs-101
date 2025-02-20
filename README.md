@@ -11,11 +11,9 @@ Welcome to The Intro to Node.js GitHub repo! We are super excited to have you. H
 
 ## Hello World
 
-- 
--  
--
--
--
+- average-joe.js
+- favorite-lyrics.js
+- golden-record.js
 
 ---
 
