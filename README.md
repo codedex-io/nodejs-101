@@ -7,8 +7,6 @@
 
 Welcome to The Intro to Node.js GitHub repo! We are super excited to have you. Here, you will find all the solutions to the Codédex challenges. Feel free to make pull requests to add your own twists on the challenges!
 
-### Website: https://codedex-9et8ok622-codedex.vercel.app/nodejs
-
 ## Hello World
 
 - [average-joe.js](https://github.com/codedex-io/nodejs-101/blob/main/1-hello-world/03-average-joe.js)
