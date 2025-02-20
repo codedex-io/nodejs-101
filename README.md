@@ -11,9 +11,9 @@ Welcome to The Intro to Node.js GitHub repo! We are super excited to have you. H
 
 ## Hello World
 
-- average-joe.js
-- favorite-lyrics.js
-- golden-record.js
+- [average-joe.js](https://github.com/codedex-io/nodejs-101/blob/main/1-hello-world/03-average-joe.js)
+- [favorite-lyrics.js](https://github.com/codedex-io/nodejs-101/blob/main/1-hello-world/04-favorite-lyrics.js)
+- [golden-record.js](https://github.com/codedex-io/nodejs-101/blob/main/1-hello-world/05-golden-record.js)
 
 ---
 
