@@ -1,15 +1,18 @@
 // Golden Record 📀
 // Codédex
 
-console.log("Hello out there!"); 
-console.log("This is my cat, Socrates, or Socks for short. ")
-console.log("Do you have any pets?");
-console.log("                      (`.-,')");
-console.log("                    .-'     ;");
-console.log("                _.-'   , `,-");
-console.log("          _ _.-'     .'  /._");
-console.log("        .' `  _.-.  /  ,'._;)");
-console.log("       (       .  )-| (");
-console.log("        )`,_ ,'_,'  \_;)");
-console.log("('_  _,'.'  (___,))");
-console.log(" `-:;.-'");
+console.log(`Hello out there! 
+    This is my cat, Socrates, or Socks for short. 
+    Do you have any pets?
+                          (\`.-,')
+                        .-'     ;
+                    _.-'   , \`,- 
+              _ _.-'     .'  /._
+            .' \`  _.-.  /  ,'._;)
+           (       .  )-| (
+            )\`,_ ,'_,'  _;)
+    ('_  _,'.'  (___,))
+     \`-:;.-'    
+        
+        `);
+    
