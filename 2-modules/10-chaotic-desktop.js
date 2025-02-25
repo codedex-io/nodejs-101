@@ -20,3 +20,17 @@ if (firstImage) {
 } else {
   console.log("No image files found!");
 }
+
+/*
+
+```terminal
+First image file found: good-morning.png
+```
+
+…let’s see what it is.
+
+https://i.imgur.com/WpJOWFC.png
+
+LOL cool… cool cool cool totally chill and fine with everyone seeing this.
+
+*/
