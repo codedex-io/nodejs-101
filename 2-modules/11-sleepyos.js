@@ -22,7 +22,7 @@ console.log(uptimeMessage);
 
 // Check if the system has been awake for more than a week
 if (uptimeInSeconds > SECONDS_IN_A_WEEK) {
-  console.log(`Woah, I’ve been awake for more than a week...I'm sleeeeepy, can you please let me rest? 🥱💤`);
+  console.log('Woah, I\'ve been awake for more than a week...I\'m sleeeeepy, can you please let me rest? 🥱💤');
 } else {
-  console.log(`Beep beep! 🏎️💨 I've been awake for less than a week! Still unbothered. moisturized. happy. in my lane. focused. flourishing.😌`);
+  console.log('Beep beep! 🏎️💨 I\'ve been awake for less than a week! Still unbothered. moisturized. happy. in my lane. focused. flourishing.😌');
 }

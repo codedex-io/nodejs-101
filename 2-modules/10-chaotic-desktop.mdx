@@ -6,10 +6,10 @@
 const path = require('path');
 
 // Manually define your Desktop path (adjust for macOS/Linux if needed)
-const desktopPath = path.join("C:", "Users", "YourUsername", "Desktop");
+const desktopPath = path.join('C:', 'Users', 'YourUsername', 'Desktop');
 
 // List of files on the Desktop
-const files = ["good-morning.PNG", "screenshot021425.JPG", "drawing.png", "haircut.WEBP", "meme.GIF"];
+const files = ['good-morning.PNG', 'screenshot021425.JPG', 'drawing.png', 'haircut.WEBP', 'meme.GIF'];
 
 // List of valid image file extensions (both lowercase & uppercase)
 const imageExtensions = ['.png', '.jpg', '.jpeg', '.gif', '.webp', '.PNG', '.JPG', '.JPEG', '.GIF', '.WEBP'];
@@ -18,9 +18,9 @@ const imageExtensions = ['.png', '.jpg', '.jpeg', '.gif', '.webp', '.PNG', '.JPG
 const firstImage = files.find(file => imageExtensions.includes(path.extname(file)));
 
 if (firstImage) {
-  console.log("First image file found:", path.join(desktopPath, firstImage));
+  console.log('First image file found:', path.join(desktopPath, firstImage));
 } else {
-  console.log("No image files found!");
+  console.log('No image files found!');
 }
 ```
 
@@ -32,6 +32,6 @@ First image file found: good-morning.png
 
 …let’s see what it is.
 
-<img title="julien screenshot" alt="julien screenshot" src="https://i.imgur.com/WpJOWFC.png">
+<img title='julien screenshot' alt='julien screenshot' src='https://i.imgur.com/WpJOWFC.png'>
 
 LOL cool… cool cool cool totally chill and fine with everyone seeing this.

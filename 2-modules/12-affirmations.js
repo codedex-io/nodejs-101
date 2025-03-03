@@ -7,11 +7,11 @@ const os = require('os');
 
 // Define an array of affirmations directly in the code
 const affirmations = [
-  "You *can* commit to dance class once a week!",
-  "You’re great at pushing yourself out of your comfort zone!",
-  "You’re gonna bake an amazing pie for your friends!",
-  "Every experience will help you become more yourself",
-  "It’s gonna be so great to go to the farmer’s market more."
+  'You *can* commit to dance class once a week!',
+  'You\'re great at pushing yourself out of your comfort zone!',
+  'You\'re gonna bake an amazing pie for your friends!',
+  'Every experience will help you become more yourself',
+  'It\'s gonna be so great to go to the farmer\'s market more.'
 ];
 
 // Define the path to the desktop

@@ -3,7 +3,7 @@
 
 const fs = require('fs');
 
-const message = "Someday, you'll look back on this moment and cringe a lot...but that's ok!"
+const message = 'Someday, you\'ll look back on this moment and cringe a lot...but that\'s ok!'
  
 fs.writeFile('seventh-grade.txt', message, (err) => {
   if (err) {
