@@ -13,6 +13,22 @@ Welcome to The Intro to Node.js GitHub repo! We are super excited to have you. H
 - [favorite-lyrics.js](https://github.com/codedex-io/nodejs-101/blob/main/1-hello-world/04-favorite-lyrics.js)
 - [golden-record.js](https://github.com/codedex-io/nodejs-101/blob/main/1-hello-world/05-golden-record.js)
 
+## Modules
+
+- [dear-diary.js](https://github.com/codedex-io/nodejs-101/blob/main/2-modules/07-dear-diary.js)
+- [unwritten.js](https://github.com/codedex-io/nodejs-101/blob/main/2-modules/08-unwritten.js)
+- [blank-page.js](https://github.com/codedex-io/nodejs-101/blob/main/2-modules/09-blank-page.js)
+- [chaotic-desktop.mdx](https://github.com/codedex-io/nodejs-101/blob/main/2-modules/10-chaotic-desktop.mdx)
+- [sleepyos.js](https://github.com/codedex-io/nodejs-101/blob/main/2-modules/11-sleepyos.js)
+- [affirmations.js](https://github.com/codedex-io/nodejs-101/blob/main/2-modules/12-affirmations.js)
+
+## Servers
+
+- [emoji-story.js](https://github.com/codedex-io/nodejs-101/blob/main/3-servers/15-emoji-story.js)
+- [cyber-ramen.shop.js](https://github.com/codedex-io/nodejs-101/blob/main/3-servers/16-cyber-ramen-shop.js)
+- [dream-house.js](https://github.com/codedex-io/nodejs-101/blob/main/3-servers/17-dream-house.js)
+- [pokemon-center.js](https://github.com/codedex-io/nodejs-101/blob/main/3-servers/18-pokemon-center.js)
+
 ---
 
 Make sure to join the [community](https://www.codedex.io/community) and [Codédex Club](https://www.codedex.io/pricing) for more content! 💖
