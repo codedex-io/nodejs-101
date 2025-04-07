@@ -5,7 +5,7 @@ const http = require('http'); // Import the http module
 
 // Create a server
 const server = http.createServer((request, response) => {
-  response.writeHead(200, { 'Content-Type': 'text/plain' }); 
+  response.writeHead(200, { 'Content-Type': 'text/plain; charset=utf-8' });
   response.end('🏃🏻‍➡️🚉🍿📺🎞️🥺💔😭😭🍿🥤'); 
 });
 
