@@ -4,18 +4,25 @@
 const http = require('http');
 
 const server = http.createServer((request, response) => {
+  // Default response setup
+  let statusCode = 200;
+  let contentType = 'text/html; charset=utf-8';
+  let content = '';
+
+  // Choose content based on the route
   if (request.url === '/pikachu') {
     console.log('Pika Pika!');
-    response.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
-    response.end('<h1>⚡️ Pikachu</h1><img src="https://i.imgur.com/k5cfniM.png" alt="Pikachu">');
+    content = '<h1>⚡️ Pikachu</h1><img src="https://i.imgur.com/k5cfniM.png" alt="Pikachu">';
   } else if (request.url === '/sylveon') {
     console.log('Sylv Sylv!');
-    response.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
-    response.end('<h1>🎀 Sylveon</h1><img src="https://i.imgur.com/rKGgVEm.png" alt="Sylveon">');
+    content = '<h1>🎀 Sylveon</h1><img src="https://i.imgur.com/rKGgVEm.png" alt="Sylveon">';
   } else {
-    response.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
-    response.end('This Pokémon is currently resting!');
+    content = 'This Pokémon is currently resting!';
   }
+
+  // Send response
+  response.writeHead(statusCode, { 'Content-Type': contentType });
+  response.end(content);
 });
 
 server.listen(3000, () => {
