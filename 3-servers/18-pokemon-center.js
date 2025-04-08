@@ -3,18 +3,18 @@
 
 const http = require('http');
 
-const server = http.createServer((req, res) => {
-  if (req.url === '/pikachu') {
+const server = http.createServer((request, response) => {
+  if (request.url === '/pikachu') {
     console.log('Pika Pika!');
-    res.writeHead(200, { 'Content-Type': 'text/html' });
-    res.end('<h1>⚡️ Pikachu</h1><img src="https://i.imgur.com/k5cfniM.png" alt="Pikachu">');
-  } else if (req.url === '/flareon') {
+    response.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
+    response.end('<h1>⚡️ Pikachu</h1><img src="https://i.imgur.com/k5cfniM.png" alt="Pikachu">');
+  } else if (request.url === '/sylveon') {
     console.log('Sylv Sylv!');
-    res.writeHead(200, { 'Content-Type': 'text/html' });
-    res.end('<h1>🎀 Sylveon</h1><img src="https://i.imgur.com/rKGgVEm.png" alt="Sylveon">');
+    response.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
+    response.end('<h1>🎀 Sylveon</h1><img src="https://i.imgur.com/rKGgVEm.png" alt="Sylveon">');
   } else {
-    res.writeHead(200, { 'Content-Type': 'text/plain' });
-    res.end('This Pokémon is currently resting!');
+    response.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
+    response.end('This Pokémon is currently resting!');
   }
 });
 
